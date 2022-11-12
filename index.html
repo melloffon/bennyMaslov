@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Benny Maslov</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="wrapper">
 
+  <!-- section header -->
   <header class="header">
       <div class="container">
         <div class="header__body">
@@ -29,10 +31,10 @@
               <a href="#actor" class="header__link">About</a>
             </li>
             <li class="header__list-item">
-              <a href="#dancer" class="header__link">Skills</a>
+              <a href="#experience" class="header__link">Experience</a>
             </li>
             <li class="header__list-item">
-              <a href="#works" class="header__link">Works</a>
+              <a href="#skills" class="header__link">Skills</a>
             </li>
             <li class="header__list-item">
               <a href="#gallery" class="header__link">Gallery</a>
@@ -45,6 +47,8 @@
       </div>
     </div>
   </header>
+  <!-- / section header -->
+  <!-- section hero -->
   <section class="hero">
     <div class="container">
       <div class="hero__inner">
@@ -67,12 +71,14 @@
       </div>
     </div>
   </section>
+  <!-- / section hero -->
+  <!-- section about -->
   <div class="about">
     <div class="container">
       <div class="about__inner">
         <h2 class="about__title title">About</h2>
-        <div class="about__content">
-          <img class="about__img" src="./images/about-bg.jpg" alt="about-bg">
+        <div class="about__content ">
+          <img class="about__img" src="./images/about-bg.jpg" alt="about-bg" >
           <p class="about__text">
             Benny was born in 1977 Chelyabinsk, USSR. At the age of 9 he took up Ballroom 
             Dancing and proceeded to compete internationally taking part in numerous 
@@ -93,19 +99,240 @@
             as world champion free diver Marina Kazankova. He is a cofounder of 
             www.wisdomofdance.com which provides workshops on transferable skills to aid 
             relationships and improve all areas of life.
-          </span>
-             
-          </p>
-          
+          </span>     
+          </p>   
         </div>
        
       </div>
     </div>
   </div>
+  <!-- / section about -->
+  <!--  section experience -->
+  <div class="experience">
+    <div class="container">
+      <div class="experience__inner">
+        <h2 class="experience__title title">Experience</h2>
+        <h3 class="experience__sub-title">Film&TV</h3>  
+        <div class="tabs">
+          <div class="tab-2">
+            <label for="tab2-1">Films</label>
+            <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+            <div class="experience__tab-content" id="experience__tab-content">
+              <table class="experience__table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Date</th>
+                    <th>Role</th>
+                    <th>Company</th>
+                    <th>Director</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>THE COURIER</td>
+                    <td>2020</td>
+                    <td>Russian Interpreter</td>
+                    <td>Film Nation/SunnyMarch</td>
+                    <td>Dominic Cooke</td>
+                  </tr>
+                  <tr>
+                    <td>DAMASCUS COVER</td>
+                    <td>2017</td>
+                    <td>Dimitry</td>
+                    <td>Cover Film Ltd</td>
+                    <td>Daniel Berk</td>
+                  </tr>
+                  <tr>
+                    <td>MISS PEREGRINE'S HOME FOR PECULIAR CHILDREN</td>
+                    <td>2016</td>
+                    <td>Skeleton Sailor</td>
+                    <td>Chernin Entertainment /Tim Burton Productions</td>
+                    <td>Tim Burton</td>
+                  </tr>
+                  <tr>
+                    <td>MORTDECAI</td>
+                    <td>2013</td>
+                    <td>Romanov's Aide</td>
+                    <td>Lionsgate</td>
+                    <td>David Koepp</td>
+                  </tr>
+                  <tr>
+                    <td>MUPPETS MOST WANTED</td>
+                    <td>2013</td>
+                    <td>Prisoner</td>
+                    <td>Disney</td>
+                    <td>James Bobin</td>
+                  </tr>
+                  <tr>
+                    <td>JACK RYAN: SHADOW RECRUIT</td>
+                    <td>2012</td>
+                    <td>Cheverin's Security/CIA Pay-Off Guard</td>
+                    <td>Paramount Pictures</td>
+                    <td>Kenneth Branagh</td>
+                  </tr>
+                  <tr>
+                    <td>WORLD WAR Z</td>
+                    <td>2012</td>
+                    <td>Gerry's Recruit</td>
+                    <td>Paramount Pictures</td>
+                    <td>Marc Forster</td>
+                  </tr>
+                  <tr>
+                    <td>ALEXANDER</td>
+                    <td>2004</td>
+                    <td>Persian Slave-Dancer</td>
+                    <td>Warner Bros. / Intermedia Films</td>
+                    <td>Oliver Stone</td>
+                  </tr>
+                  <tr>
+                    <td>PICCADILLY JIM</td>
+                    <td>2004</td>
+                    <td>Dancer</td>
+                    <td>Mission Pictures / Odyssey Ent.s / Myriad Pictures</td>
+                    <td>John McKay</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          </div>
+          <div class="tab-2">
+            <label for="tab2-2">TV</label>
+            <input id="tab2-2" name="tabs-two" type="radio">
+            <div class="experience__tab-content" id="experience__tab-content">
+              <table class="experience__table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Date</th>
+                    <th>Role</th>
+                    <th>Company</th>
+                    <th>Director</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>WILL (10 EPS)</td>
+                    <td>2017</td>
+                    <td>Tye Brewster (reg)</td>
+                    <td>Ninth Floor Productions/TNT</td>
+                    <td>Shekhar Kapur</td>
+                  </tr>
+                  <tr>
+                    <td>WILL (PILOT)</td>
+                    <td>2016</td>
+                    <td>Tye Brewsteron</td>
+                    <td>TNT</td>
+                    <td>Shekhar Kapur</td>
+                  </tr>
+                  <tr>
+                    <td>BIRDS OF A FEATHER, EPISODE 6, SERIES 11</td>
+                    <td>2015</td>
+                    <td>Conradr</td>
+                    <td>ITV</td>
+                    <td>Martin Dennis</td>
+                  </tr>
+                  <tr>
+                    <td>HANDOVER CEREMONY AT THE OLYMPIC GAMES BEIJING</td>
+                    <td>2008</td>
+                    <td>Emo</td>
+                    <td>LOCOG</td>
+                    <td>Stephen Powell</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+       
+          
+        
+        
 
+      </div>
+    </div>
+  </div>
+  <!-- / section experience -->
+  <!--  section skills -->
+  <section class="skills">
+    <div class="container">
+      <div class="skills__inner">
+        <h2 class="skills__title title">Skills</h2>
+        <ul class="sills__list sills__list-languages">
+          <h3 class="sills__list-title">LANGUAGES:</h3>
+          <li class="skills__list-item">ENGLISH</li>
+          <li class="skills__list-item">RUSSIAN</li>
+          <li class="skills__list-item">HEBREW</li>
+        </ul>
+        <ul class="sills__list sills__list-accents">
+          <h3 class="sills__list-title">Accents & Dialects:</h3>
+          <li class="skills__list-item">American-Standard</li>
+          <li class="skills__list-item">RP</li>
+          <li class="skills__list-item">Russian</li>
+        </ul>
+        <ul class="sills__list sills__list-dance">
+          <h3 class="sills__list-title">Music & Dance:</h3>
+          <li class="skills__list-item">Ballet</li>
+          <li class="skills__list-item">Ballroom Dancing</li>
+          <li class="skills__list-item">Choreography</li>
+          <li class="skills__list-item">Contemporary Dance</li>
+          <li class="skills__list-item">Jazz Dancing</li>
+          <li class="skills__list-item">Latin American</li>
+          <li class="skills__list-item">Salsa Dancing</li>
+          <li class="skills__list-item">Tango</li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+  <!-- / section skills -->
+
+ <!--  section gallery -->
+  <section class="gallery">
+      <div class="gallery__inner">
+        <h2 class="gallery__title title">Gallery</h2>
+        <div class="gallery__wrap">
+        <a data-fancybox="gallery" data-src="images/about-bg.jpg">
+          <img src="images/about-bg.jpg" width="450" height="350"/>
+        </a>
+        <a data-fancybox="gallery" data-src="images/about-bg.jpg">
+          <img src="images/about-bg.jpg" width="450" height="350"/>
+        </a>
+        <a data-fancybox="gallery" data-src="images/about-bg.jpg">
+          <img src="images/about-bg.jpg" width="450" height="350" />
+        </a>
+        <a data-fancybox="gallery" data-src="images/about-bg.jpg">
+          <img src="images/about-bg.jpg" width="450" height="350"/>
+        </a>
+        <a data-fancybox="gallery" data-src="images/about-bg.jpg">
+          <img src="images/about-bg.jpg" width="450" height="350" />
+        </a>
+        <a data-fancybox="gallery" data-src="images/about-bg.jpg">
+          <img src="images/about-bg.jpg" width="450" height="350"/>
+        </a>
+        <a data-fancybox="gallery" data-src="images/about-bg.jpg">
+          <img src="images/about-bg.jpg" width="450" height="350"/>
+        </a>
+        <a data-fancybox="gallery" data-src="images/about-bg.jpg">
+          <img src="images/about-bg.jpg" width="450" height="350"/>
+        </a>
+        </div>
+      </div>
+  </section>
+  <!-- / section gallery -->
+  <!-- / section contact -->
+  <section class="education">
+    <div class="container">
+      <div class="education__inner">
+
+      </div>
+    </div>
+  </section>
 </div>
 
 
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

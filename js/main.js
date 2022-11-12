@@ -14,3 +14,4 @@ menu_list.onclick = function() {
   menu_itself.classList.toggle('active');
   body.classList.toggle('lock');
 };
+
